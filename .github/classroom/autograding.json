@@ -1,20 +1,10 @@
 {
   "tests": [
     {
-      "name": "input full display",
-      "setup": "g++ -o a.out ./Homework/HW01/hw01-3-basic-input-output.cpp",
-      "run": "./a.out",
-      "input": "First Name: Aomsin\r\nLast Name: AomMoney",
-      "output": "Aomsin AomMoneys TC, RMUTL, Chiang Mai, Thailand",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 1
-    },
-    {
       "name": "input only value",
       "setup": "g++ -o a.out ./Homework/HW01/hw01-3-basic-input-output.cpp",
       "run": "./a.out",
-      "input": "Aomsin\r\nAomMoney",
+      "input": "Aomsin\r\nAomMoney\r\n15\r\n5\r\n23\r\n18",
       "output": "Aomsin AomMoneys TC, RMUTL, Chiang Mai, Thailand",
       "comparison": "included",
       "timeout": 10,
