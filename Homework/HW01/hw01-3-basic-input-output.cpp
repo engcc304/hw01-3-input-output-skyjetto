@@ -26,13 +26,15 @@ int main() {
     char fname[20], lname[20] ;
     printf( "First Name: " ) ; scanf( "%s", fname ) ;
     printf( "Last Name: " ) ;  scanf( "%s", lname ) ;
-    printf( "%s %ss TC, RMUTL, Chiang Mai, Thailand", fname, lname ) ;
+    printf( "%s %ss TC, RMUTL, Chiang Mai, Thailand\n", fname, lname ) ;
+
+    //update cheat code.
 
     int Arr[20], N, i ;
     printf( "Enter N : " ) ;
     scanf( "%d", &N ) ;
     for( i = 0 ; i < N ; i++ ) {
-        printf( "  Enter value [%d] : ", i ) ;
+        printf( "Enter value [%d] : ", i ) ;
         scanf( "%d", &Arr[ i ] ) ;
     }
 
