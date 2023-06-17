@@ -17,6 +17,9 @@
 #include <stdio.h>
 
 int main() {
-    
+    char fname[20], lname[20] ;
+    printf( "First Name: " ) ; scanf( "%s", fname ) ;
+    printf( "Last Name: " ) ;  scanf( "%s", lname ) ;
+    printf( "%s %ss TC, RMUTL, Chiang Mai, Thailand", fname, lname ) ;
     return 0 ;
 }
