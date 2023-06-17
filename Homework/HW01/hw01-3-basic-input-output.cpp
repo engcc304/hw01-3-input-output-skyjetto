@@ -12,6 +12,12 @@
         Last Name: DEF
     Output:
         ABD DEFs TC, RMUTL, Chiang Mai, Thailand
+
+
+
+Aomsin AomMoneys TC, RMUTL, Chiang Mai, Thailand
+Array[5] : 6 4 3 2 1
+
 */
 
 #include <stdio.h>
@@ -21,5 +27,19 @@ int main() {
     printf( "First Name: " ) ; scanf( "%s", fname ) ;
     printf( "Last Name: " ) ;  scanf( "%s", lname ) ;
     printf( "%s %ss TC, RMUTL, Chiang Mai, Thailand", fname, lname ) ;
+
+    int Arr[20], N ;
+    printf( "Enter N : " ) ;
+    scanf( "%d", &N ) ;
+    for( int i = 0 ; i < N ; i++ ) {
+        printf( "  Enter value [%d] : " ) ;
+        scanf( "%d", &Array[ i ] ) ;
+    }
+
+    printf( "Array[%d] : ", N ) ;
+    for( int i = 0 ; i < N ; i++ ) {
+        printf( "%d ", Arr[i] ) ;
+    }
+
     return 0 ;
 }
