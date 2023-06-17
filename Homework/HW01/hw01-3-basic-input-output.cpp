@@ -28,10 +28,10 @@ int main() {
     printf( "Last Name: " ) ;  scanf( "%s", lname ) ;
     printf( "%s %ss TC, RMUTL, Chiang Mai, Thailand", fname, lname ) ;
 
-    int Arr[20], N ;
+    int Arr[20], N, i ;
     printf( "Enter N : " ) ;
     scanf( "%d", &N ) ;
-    for( int i = 0 ; i < N ; i++ ) {
+    for( i = 0 ; i < N ; i++ ) {
         printf( "  Enter value [%d] : ", i ) ;
         scanf( "%d", &Arr[ i ] ) ;
     }
