@@ -32,12 +32,12 @@ int main() {
     printf( "Enter N : " ) ;
     scanf( "%d", &N ) ;
     for( int i = 0 ; i < N ; i++ ) {
-        printf( "  Enter value [%d] : " ) ;
+        printf( "  Enter value [%d] : ", i ) ;
         scanf( "%d", &Arr[ i ] ) ;
     }
 
     printf( "Array[%d] : ", N ) ;
-    for( int i = 0 ; i < N ; i++ ) {
+    for( i = 0 ; i < N ; i++ ) {
         printf( "%d ", Arr[i] ) ;
     }
 
