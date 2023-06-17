@@ -35,6 +35,7 @@ int main() {
     scanf( "%d", &N ) ;
     for( i = 0 ; i < N ; i++ ) {
         //printf( "Enter value [%d] : ", i ) ;
+        
         scanf( "%d", &Arr[ i ] ) ;
     }
 
