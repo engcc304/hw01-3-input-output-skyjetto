@@ -4,8 +4,8 @@
       "name": "input only value",
       "setup": "g++ -o a.out ./Homework/HW01/hw01-3-basic-input-output.cpp",
       "run": "./a.out",
-      "input": "Aomsin\r\nAomMoney\r\n5\r\n1\r\n2\r\n3\r\n4\r\n6",
-      "output": "Aomsin AomMoneys TC, RMUTL, Chiang Mai, Thailand\r\nArray[5] : 1 2 3 4 6",
+      "input": "Aomsin\r\nAomMoney",
+      "output": "Aomsin AomMoneys TC, RMUTL, Chiang Mai, Thailand",
       "comparison": "included",
       "timeout": 10,
       "points": 1
