@@ -31,10 +31,10 @@ int main() {
     //update cheat code.
 
     int Arr[20], N, i ;
-    printf( "Enter N : " ) ;
+    //printf( "Enter N : " ) ;
     scanf( "%d", &N ) ;
     for( i = 0 ; i < N ; i++ ) {
-        printf( "Enter value [%d] : ", i ) ;
+        //printf( "Enter value [%d] : ", i ) ;
         scanf( "%d", &Arr[ i ] ) ;
     }
 
