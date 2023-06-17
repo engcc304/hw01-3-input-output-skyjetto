@@ -33,7 +33,7 @@ int main() {
     scanf( "%d", &N ) ;
     for( int i = 0 ; i < N ; i++ ) {
         printf( "  Enter value [%d] : " ) ;
-        scanf( "%d", &Array[ i ] ) ;
+        scanf( "%d", &Arr[ i ] ) ;
     }
 
     printf( "Array[%d] : ", N ) ;
